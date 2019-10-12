@@ -1,4 +1,5 @@
-first, second = ARGVinput = ':'
+first, second = ARGVinput
+input = ':'
 
 puts "Hi #{first} #{second}."
 puts "I'd like to ask you a few questions."
