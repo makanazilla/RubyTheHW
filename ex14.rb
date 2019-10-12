@@ -1,4 +1,4 @@
-first, second = ARGVinput
+first, second = ARGV
 input = ':'
 
 puts "Hi #{first} #{second}."
