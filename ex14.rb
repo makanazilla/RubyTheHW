@@ -1,18 +1,18 @@
 user_name = ARGV.first #gets the first argument
-prompt = '>'
+input = ':'
 
 puts "Hi #{user_name}."
 puts "I'd like to ask you a few questions."
 puts "Do you like me #{user_name}?"
-puts prompt
+puts input
 likes = $stdin.gets.chomp
 
 puts "Where do you live #{user_name}?"
-puts prompt
+puts input
 lives = $stdin.gets.chomp
 
 # a comma for puts is like using it twice
-puts "What kind of computer do you have?", prompt
+puts "What kind of computer do you have?", input
 computer = $stdin.gets.chomp
 
 puts """
