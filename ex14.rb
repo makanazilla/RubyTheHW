@@ -1,13 +1,12 @@
-user_name = ARGV.first #gets the first argument
-input = ':'
+first, second = ARGVinput = ':'
 
-puts "Hi #{user_name}."
+puts "Hi #{first} #{second}."
 puts "I'd like to ask you a few questions."
-puts "Do you like me #{user_name}?"
+puts "Do you like me #{first}?"
 puts input
 likes = $stdin.gets.chomp
 
-puts "Where do you live #{user_name}?"
+puts "Where do you live #{first}?"
 puts input
 lives = $stdin.gets.chomp
 
