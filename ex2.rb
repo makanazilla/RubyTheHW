@@ -1,4 +1,4 @@
-# Comment comment comment
+# Comment, comment, comment
 # All this will be ignored.
 
 puts "I could have code like this." # and the comment after is ignored
